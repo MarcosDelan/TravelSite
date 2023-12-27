@@ -607,3 +607,13 @@
     width: 800px; /* Adjust as needed */
   }
   
+
+  .logo {
+    width: 170px;
+  }
+
+  @media (max-width: 990px) {
+    .logo {
+        width: 100px;
+    }
+  }

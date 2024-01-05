@@ -67,10 +67,17 @@
     height: 48px;
 }
 
+@media (max-width: 500px) {
+    .btn-lg-square {
+        width: 19px;
+        height: 19px;
+    }
+  }
+
 .btn-square,
 .btn-sm-square,
 .btn-lg-square {
-    padding: 0;
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -617,3 +624,4 @@
         width: 100px;
     }
   }
+
